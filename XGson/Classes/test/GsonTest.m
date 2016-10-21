@@ -31,7 +31,7 @@
     
     DataObj *dobj = [Gson fromJsonWithData:jsonData ObjClass:[DataObj class]];
     
-    
+    NSLog(@"name = %@", dobj.name);
 
 }
 
