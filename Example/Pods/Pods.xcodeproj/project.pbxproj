@@ -7,21 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0245EA94D4C53676E0729D7E40DC68C4 /* XGson-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F84C769983F7148186C6F3C8E0899AE9 /* XGson-dummy.m */; };
+		0374F6EACA7B1B55115D443B102A01F0 /* Gson.h in Headers */ = {isa = PBXBuildFile; fileRef = EFA03B8F6AA55395E98A4CF28099E4EB /* Gson.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0D3B89547C5D0EEB518F1A524836ECE2 /* Pods-XGson_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9090CC4ED7B787E35596EAE485704190 /* Pods-XGson_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0FBEBE3FBC869A7EF989413837BBF7E2 /* XGson-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F84C769983F7148186C6F3C8E0899AE9 /* XGson-dummy.m */; };
 		11C22C7B844DF31A5EBDC9AC132C5E94 /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B5E22F9517F21D3A0251F88FCAB281E /* UIImage+Compare.m */; };
 		130F048002A62769FAFCC66F2C79391A /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1374B79237CAC07693E99442FBED1F15 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		213A24B09811D1CA0E63C1CD0BF5B94D /* Gson.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D699661CE4B026C8605203B7EFF4283 /* Gson.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		134E464FE9EBD02D6659681C49B10CF9 /* Gson.m in Sources */ = {isa = PBXBuildFile; fileRef = A1925F88720444B19F6B507FB9AC4FE4 /* Gson.m */; };
 		2C87E1788C8FA06AE3481A2226E3AF2D /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EECE81A9AEC1ED1057A9C3C88DBCEBE /* UIApplication+StrictKeyWindow.m */; };
 		34A1C7E576C58A9D3F3101448308BF3E /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B161931541BFE46DFEA2092EDDDA815 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		36AB0F82234A388EFCDF939F749C862B /* XGson-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A608676AA4B8F3831BBCFFE8544D1EA4 /* XGson-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		35B28ABB8BF7DB2B5B73C8B1F8C32254 /* DataObj.m in Sources */ = {isa = PBXBuildFile; fileRef = 5899EE32102D212B2413560F340F2A88 /* DataObj.m */; };
 		497AA8816FC08215EF4C2431E1986992 /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 52C18C0EB1FED5EB5CE3B0E768AC510F /* FBSnapshotTestCase-dummy.m */; };
 		49E9CE6CDEA80E7C247CDA044A91B5F5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E496C2E8F5310CCD9757EFC3961482B /* UIKit.framework */; };
+		4B8D71D8CA8553E409F20B3759739B77 /* DataObj.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B2B428DC0D1DD5F3AFEA8CAF4C08909 /* DataObj.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		61EBC5CF0D5E065C88028B49C6B8D3B3 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 85E250EF19C5B5671AEC10BEB508D087 /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		6466CA85E551A96394AAB26C09F96B69 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA75099E263FEEEAC4EABC8DDDC7FEE0 /* Foundation.framework */; };
 		68B245DB47CA60F8F9ADCA1E8CCDC324 /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = B9109B8B333B5A1A3E92EFC09EDC10AC /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		6914EE43A9B8B8D30220B3B6B0D57523 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 39577E2B806B8B2D019998DE60728F63 /* FBSnapshotTestCase.m */; };
 		69D30B301C9B1E8059548DE544C5F716 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA75099E263FEEEAC4EABC8DDDC7FEE0 /* Foundation.framework */; };
+		6A7664F1E50D1FCF18B426DAA5AC2766 /* GsonTest.h in Headers */ = {isa = PBXBuildFile; fileRef = 196BD0CA0B340DE44F73EFBD7983C814 /* GsonTest.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6AEFB8CB53072AE49169F136706F7E2A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41342C8431DAAFD900CDBA3C3B840CBB /* QuartzCore.framework */; };
 		6E4A16BF4D27C48BB1FE1E1CF5E8B90E /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 58A2557E7CE20AACCD1B28B1CD1F920D /* FBSnapshotTestCasePlatform.m */; };
 		6EB90B355BCADD06E20B94D8ACE07500 /* Pods-XGson_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 12091F27C6CC5C158C172A3A6A087BBD /* Pods-XGson_Tests-dummy.m */; };
@@ -31,13 +34,14 @@
 		9AF5C2C1F7D443C42DB9F0F247CC0357 /* Pods-XGson_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 30CF47B2A37AF3A58985FD22FCFFABDF /* Pods-XGson_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9FA3B93CE0ECAC3CDC30890659AACF82 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E3DB4D092B985E76E227F7F313C6981 /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AC8B65A38D97CC9DEA534F4017720837 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C32099E0A716483F90035D502A494AC /* XCTest.framework */; };
-		B5FDF298FD1A7E45EE0369D9FC1F0214 /* Gson.m in Sources */ = {isa = PBXBuildFile; fileRef = 071E84C04FB698923057A51448F18649 /* Gson.m */; };
 		B6A67A3B998747E4290BF6010EC33806 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 73D037B3C804B9E1BB70538E342E5104 /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BE5D30335800F92135A863320B15757C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA75099E263FEEEAC4EABC8DDDC7FEE0 /* Foundation.framework */; };
 		C360952381641F725C15758993A0F665 /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = B9CEF7D6C5E08AB80E58DABC75D882BC /* UIImage+Diff.m */; };
 		C73775BDD74A01E48220642B187E7A54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA75099E263FEEEAC4EABC8DDDC7FEE0 /* Foundation.framework */; };
 		D5C30BC656C11AF60394E3180A217BB1 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DBFBDCC891B770A2AC9EF0FB164B751 /* UIImage+Snapshot.m */; };
+		E56349BCCC2A996EC763DCAB59B3EED3 /* GsonTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 15289D82007585290C6A7F6521AD0F66 /* GsonTest.m */; };
 		EAA652557B70F493923A3447B5D64E0D /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 432938111B6FF0189EFFEDF2F845B308 /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		F1701B1714C68FB1860E3ABEDDD0CBF7 /* XGson-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A608676AA4B8F3831BBCFFE8544D1EA4 /* XGson-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F47158C234C50FFB069A1EF8AB26D9F1 /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 052258A488A96C35531FAC73C4F42924 /* FBSnapshotTestController.m */; };
 /* End PBXBuildFile section */
 
@@ -60,23 +64,25 @@
 
 /* Begin PBXFileReference section */
 		052258A488A96C35531FAC73C4F42924 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
-		071E84C04FB698923057A51448F18649 /* Gson.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Gson.m; sourceTree = "<group>"; };
 		0B161931541BFE46DFEA2092EDDDA815 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
 		0E496C2E8F5310CCD9757EFC3961482B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		12091F27C6CC5C158C172A3A6A087BBD /* Pods-XGson_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XGson_Tests-dummy.m"; sourceTree = "<group>"; };
 		1374B79237CAC07693E99442FBED1F15 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
+		15289D82007585290C6A7F6521AD0F66 /* GsonTest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GsonTest.m; sourceTree = "<group>"; };
+		196BD0CA0B340DE44F73EFBD7983C814 /* GsonTest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GsonTest.h; sourceTree = "<group>"; };
 		2EECE81A9AEC1ED1057A9C3C88DBCEBE /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
 		30CF47B2A37AF3A58985FD22FCFFABDF /* Pods-XGson_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XGson_Tests-umbrella.h"; sourceTree = "<group>"; };
 		39577E2B806B8B2D019998DE60728F63 /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
 		3B5E22F9517F21D3A0251F88FCAB281E /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
 		3C32099E0A716483F90035D502A494AC /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		3D699661CE4B026C8605203B7EFF4283 /* Gson.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Gson.h; sourceTree = "<group>"; };
 		3DBFBDCC891B770A2AC9EF0FB164B751 /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
 		41342C8431DAAFD900CDBA3C3B840CBB /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		432938111B6FF0189EFFEDF2F845B308 /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
+		4B2B428DC0D1DD5F3AFEA8CAF4C08909 /* DataObj.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DataObj.h; sourceTree = "<group>"; };
 		52C18C0EB1FED5EB5CE3B0E768AC510F /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
 		53BD4BC62AF592BAF39F1DF000536F5A /* XGson-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XGson-prefix.pch"; sourceTree = "<group>"; };
 		56DFC409FFD8EFD78EA3C909221BEF77 /* Pods-XGson_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XGson_Example.release.xcconfig"; sourceTree = "<group>"; };
+		5899EE32102D212B2413560F340F2A88 /* DataObj.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DataObj.m; sourceTree = "<group>"; };
 		58A2557E7CE20AACCD1B28B1CD1F920D /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
 		5DC5DD6930EE12A91ECE74CD0791B36C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		62B6B7E36FEB0A55188F04C8C5AE35FD /* Pods-XGson_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XGson_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -98,6 +104,7 @@
 		95C1CF7100BDC660756C49F9C81A9ECD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		99271F5D254D8B6DF1F3F18CC14D54BC /* Pods-XGson_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XGson_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		995C30C0CF7A64A04C113A3B8D103B01 /* Pods-XGson_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XGson_Tests-resources.sh"; sourceTree = "<group>"; };
+		A1925F88720444B19F6B507FB9AC4FE4 /* Gson.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Gson.m; sourceTree = "<group>"; };
 		A58C4F94596E3D7BEB21280425C17439 /* Pods-XGson_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XGson_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		A608676AA4B8F3831BBCFFE8544D1EA4 /* XGson-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XGson-umbrella.h"; sourceTree = "<group>"; };
 		A991B5316197560E2242419FB4B446C1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -115,6 +122,7 @@
 		DADAF30F2D84FDAAD2ADD2D50C1F40DF /* FBSnapshotTestCase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.xcconfig; sourceTree = "<group>"; };
 		E37899BD4B349060AA147E2A3721D3A2 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
 		E865AF1CCB047DE4AEEC1A398E3DA737 /* Pods-XGson_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XGson_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EFA03B8F6AA55395E98A4CF28099E4EB /* Gson.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Gson.h; sourceTree = "<group>"; };
 		F84C769983F7148186C6F3C8E0899AE9 /* XGson-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XGson-dummy.m"; sourceTree = "<group>"; };
 		F9230EDF5730955558A005F2C0A805E5 /* Pods-XGson_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XGson_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -158,6 +166,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0B49912B5331A6BC511221BCE1D4BEF9 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				EFA03B8F6AA55395E98A4CF28099E4EB /* Gson.h */,
+				A1925F88720444B19F6B507FB9AC4FE4 /* Gson.m */,
+				637C086B166AE2A359FDD17BA08366E0 /* test */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		0DD0211F2D8CE61459637A8374A50436 /* XGson */ = {
+			isa = PBXGroup;
+			children = (
+				0B49912B5331A6BC511221BCE1D4BEF9 /* Classes */,
+			);
+			path = XGson;
+			sourceTree = "<group>";
+		};
 		14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -180,20 +206,11 @@
 			path = "../Target Support Files/FBSnapshotTestCase";
 			sourceTree = "<group>";
 		};
-		1616A09EAAF03216E66C274BD046E69D /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				3D699661CE4B026C8605203B7EFF4283 /* Gson.h */,
-				071E84C04FB698923057A51448F18649 /* Gson.m */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
 		20A4938D81F09C5BB6DADA37C659ABD3 /* XGson */ = {
 			isa = PBXGroup;
 			children = (
 				2E1C5846136B883FA9A5C5852210A3B5 /* Support Files */,
-				4AE036914520EA6171830B6E5C78E9F9 /* XGson */,
+				0DD0211F2D8CE61459637A8374A50436 /* XGson */,
 			);
 			name = XGson;
 			path = ../..;
@@ -241,14 +258,6 @@
 			path = "Example/Pods/Target Support Files/XGson";
 			sourceTree = "<group>";
 		};
-		4AE036914520EA6171830B6E5C78E9F9 /* XGson */ = {
-			isa = PBXGroup;
-			children = (
-				1616A09EAAF03216E66C274BD046E69D /* Classes */,
-			);
-			path = XGson;
-			sourceTree = "<group>";
-		};
 		5D3BD99C8BE80DECC37FDBE336A3C12B /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -258,6 +267,17 @@
 				B061E4C8E57361A667A520EBA6B29718 /* XGson.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		637C086B166AE2A359FDD17BA08366E0 /* test */ = {
+			isa = PBXGroup;
+			children = (
+				4B2B428DC0D1DD5F3AFEA8CAF4C08909 /* DataObj.h */,
+				5899EE32102D212B2413560F340F2A88 /* DataObj.m */,
+				196BD0CA0B340DE44F73EFBD7983C814 /* GsonTest.h */,
+				15289D82007585290C6A7F6521AD0F66 /* GsonTest.m */,
+			);
+			path = test;
 			sourceTree = "<group>";
 		};
 		7646DB2DEF3BA93893F2E91FCEBE546F /* Development Pods */ = {
@@ -381,12 +401,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		55679D4804716DF9BBAD93FCA6D3D244 /* Headers */ = {
+		82E9B51924405F3030F98DE2AC1D4CF5 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				213A24B09811D1CA0E63C1CD0BF5B94D /* Gson.h in Headers */,
-				36AB0F82234A388EFCDF939F749C862B /* XGson-umbrella.h in Headers */,
+				4B8D71D8CA8553E409F20B3759739B77 /* DataObj.h in Headers */,
+				0374F6EACA7B1B55115D443B102A01F0 /* Gson.h in Headers */,
+				6A7664F1E50D1FCF18B426DAA5AC2766 /* GsonTest.h in Headers */,
+				F1701B1714C68FB1860E3ABEDDD0CBF7 /* XGson-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -458,9 +480,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 43A1A55A267DF7E5F816CE59ACB1A840 /* Build configuration list for PBXNativeTarget "XGson" */;
 			buildPhases = (
-				34F21DDF025F05D0A937A1FF703BC2C8 /* Sources */,
+				410A1A4338D70D9A0AE593954CE48DC8 /* Sources */,
 				793428BF011B5F4267D06A2C7A351548 /* Frameworks */,
-				55679D4804716DF9BBAD93FCA6D3D244 /* Headers */,
+				82E9B51924405F3030F98DE2AC1D4CF5 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -517,12 +539,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		34F21DDF025F05D0A937A1FF703BC2C8 /* Sources */ = {
+		410A1A4338D70D9A0AE593954CE48DC8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B5FDF298FD1A7E45EE0369D9FC1F0214 /* Gson.m in Sources */,
-				0245EA94D4C53676E0729D7E40DC68C4 /* XGson-dummy.m in Sources */,
+				35B28ABB8BF7DB2B5B73C8B1F8C32254 /* DataObj.m in Sources */,
+				134E464FE9EBD02D6659681C49B10CF9 /* Gson.m in Sources */,
+				E56349BCCC2A996EC763DCAB59B3EED3 /* GsonTest.m in Sources */,
+				0FBEBE3FBC869A7EF989413837BBF7E2 /* XGson-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

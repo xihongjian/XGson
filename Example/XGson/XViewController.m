@@ -19,6 +19,9 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    [GsonTest test];
+    
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
