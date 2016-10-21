@@ -7,6 +7,8 @@
 //
 
 #import "XViewController.h"
+#import <XGson/XGson-umbrella.h>
+
 
 @interface XViewController ()
 

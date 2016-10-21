@@ -36,7 +36,7 @@ Pod::Spec.new do |s|
   #   'XGson' => ['XGson/Assets/*.png']
   # }
 
-  s.public_header_files = 'XGson/Classes/**/*.h'
+  # s.public_header_files = 'XGson/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
