@@ -1,0 +1,6 @@
+framework module Pods_XGson_Example {
+  umbrella header "Pods-XGson_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,23 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - XGson (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - XGson (from `../`)
+
+EXTERNAL SOURCES:
+  XGson:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  XGson: a9c8ffc465f13d0ddb3e29044b6aa32ee08088a6
+
+PODFILE CHECKSUM: b87f7142331cc3e6a056b8ec7e5b313d756d1995
+
+COCOAPODS: 1.1.1

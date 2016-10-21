@@ -1,0 +1,6 @@
+framework module XGson {
+  umbrella header "XGson-umbrella.h"
+
+  export *
+  module * { export * }
+}
