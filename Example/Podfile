@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'XGson_Example' do
+  pod 'XGson', :path => '../'
+
+  target 'XGson_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
